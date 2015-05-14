@@ -1084,7 +1084,6 @@ C/C++ Compiler	C4239		nonstandard extension used : 'token' : conversion from 'ty
 C/C++ Compiler	C4240		nonstandard extension used : access to 'classname' now defined to be 'access specifier', previously it was defined to be 'access specifier'	Warning	http://msdn.microsoft.com/en-us/library/h2kd22yx.aspx
 C/C++ Compiler	C4242		'identifier' : conversion from 'type1' to 'type2', possible loss of data	Warning	http://msdn.microsoft.com/en-us/library/3hca13eh.aspx
 C/C++ Compiler	C4243		'conversion type' conversion exists from 'type1' to 'type2', but is inaccessible	Warning	http://msdn.microsoft.com/en-us/library/faaf67cx.aspx
-C/C++ Compiler	C4244		'argument' : conversion from 'type1' to 'type2', possible loss of data	Warning	http://msdn.microsoft.com/en-us/library/2d7604yb.aspx
 C/C++ Compiler	C4244		'conversion' conversion from 'type1' to 'type2', possible loss of data	Warning	http://msdn.microsoft.com/en-us/library/th7a07tz.aspx
 C/C++ Compiler	C4245		'conversion' : conversion from 'type1' to 'type2', signed/unsigned mismatch	Warning	http://msdn.microsoft.com/en-us/library/e9s7thk1.aspx
 C/C++ Compiler	C4250		'class1' : inherits 'class2::member' via dominance	Warning	http://msdn.microsoft.com/en-us/library/6b3sy7ae.aspx
