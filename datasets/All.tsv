@@ -386,9 +386,9 @@ C/C++ Compiler	C1076		compiler limit : internal heap limit reached; use /Zm to s
 C/C++ Compiler	C1079		compiler limit : PCH file size limit exceeded	Fatal Error	http://msdn.microsoft.com/en-us/library/9ff4d7z4.aspx
 C/C++ Compiler	C1080		compiler limit : command line option exceeded limit of number characters	Fatal Error	http://msdn.microsoft.com/en-us/library/3t4whywe.aspx
 C/C++ Compiler	C1081		'symbol': file name too long	Fatal Error	http://msdn.microsoft.com/en-us/library/cybc0ka6.aspx
-C/C++ Compiler	C1083		Cannot open filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/et4zwx34.aspx
-C/C++ Compiler	C1084		Cannot read filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/5f1s5tde.aspx
-C/C++ Compiler	C1085		Cannot write filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/1s8cby67.aspx
+C/C++ Compiler	C1083	CannotOpenFiletypeFile	Cannot open filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/et4zwx34.aspx
+C/C++ Compiler	C1084	CannotReadFiletypeFile	Cannot read filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/5f1s5tde.aspx
+C/C++ Compiler	C1085	CannotWriteFiletypeFile	Cannot write filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/1s8cby67.aspx
 C/C++ Compiler	C1092		Edit and Continue does not support changes to data types; build required	Fatal Error	http://msdn.microsoft.com/en-us/library/t6ab57kt.aspx
 C/C++ Compiler	C1093		API call 'function name' failed 'location of call' : 'text from run-time'	Fatal Error	http://msdn.microsoft.com/en-us/library/y7ke5e4d.aspx
 C/C++ Compiler	C1094		'-Zmval1' : command line option is inconsistent with value used to build precompiled header ('-Zmval2')	Fatal Error	http://msdn.microsoft.com/en-us/library/3ztc68td.aspx
@@ -541,7 +541,7 @@ C/C++ Compiler	C2212		'identifier' : __based not available for pointers to funct
 C/C++ Compiler	C2213		'modifier' : illegal argument to __based	Error	http://msdn.microsoft.com/en-us/library/esh19454.aspx
 C/C++ Compiler	C2217		'attribute1' requires 'attribute2'	Error	http://msdn.microsoft.com/en-us/library/8cxzyx6f.aspx
 C/C++ Compiler	C2219		syntax error : type qualifier must be after '*'	Error	http://msdn.microsoft.com/en-us/library/097sy9kt.aspx
-C/C++ Compiler	C2220		warning treated as error - no object file generated	Error	http://msdn.microsoft.com/en-us/library/ksk5k0ta.aspx
+C/C++ Compiler	C2220	WarningTreatedAsError	warning treated as error - no object file generated	Error	http://msdn.microsoft.com/en-us/library/ksk5k0ta.aspx
 C/C++ Compiler	C2223		left of '-&gt;identifier' must point to struct/union	Error	http://msdn.microsoft.com/en-us/library/2eaz03kd.aspx
 C/C++ Compiler	C2224		left of '.identifier' must have struct/union type	Error	http://msdn.microsoft.com/en-us/library/a5f5awf5.aspx
 C/C++ Compiler	C2229		type 'identifier' has an illegal zero-sized array	Error	http://msdn.microsoft.com/en-us/library/0scy7z2d.aspx
