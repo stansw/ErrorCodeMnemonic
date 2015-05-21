@@ -1,80 +1,80 @@
 Program	Code	Mnemonic	Summary	Severity	HelpLink
-C/C++ Compiler	C1001		INTERNAL COMPILER ERROR(compiler file file, line number)	Fatal Error	http://msdn.microsoft.com/en-us/library/y19zxzb2.aspx
-C/C++ Compiler	C1002		compiler is out of heap space in pass 2	Fatal Error	http://msdn.microsoft.com/en-us/library/c9e6fs6b.aspx
-C/C++ Compiler	C1004		unexpected end of file found	Fatal Error	http://msdn.microsoft.com/en-us/library/4exw7xyc.aspx
-C/C++ Compiler	C1009		compiler limit : macros nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/df401k96.aspx
-C/C++ Compiler	C1010		unexpected end of file while looking for precompiled header. Did you forget to add '#include name' to your source?	Fatal Error	http://msdn.microsoft.com/en-us/library/d7fz9ckx.aspx
-C/C++ Compiler	C1017		invalid integer constant expression	Fatal Error	http://msdn.microsoft.com/en-us/library/h5sh3k99.aspx
-C/C++ Compiler	C1026		parser stack overflow, program too complex	Fatal Error	http://msdn.microsoft.com/en-us/library/789zf68a.aspx
-C/C++ Compiler	C1033		cannot open program database pdb	Fatal Error	http://msdn.microsoft.com/en-us/library/4ks5fw35.aspx
-C/C++ Compiler	C1046		compiler limit : structure nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/ahk8b7h2.aspx
-C/C++ Compiler	C1051		program database file, 'pdbfile', has an obsolete format, delete it and recompile	Fatal Error	http://msdn.microsoft.com/en-us/library/752ye4bt.aspx
-C/C++ Compiler	C1054		compiler limit : initializers nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/x958zeft.aspx
-C/C++ Compiler	C1055		compiler limit : out of keys	Fatal Error	http://msdn.microsoft.com/en-us/library/3d859kh1.aspx
-C/C++ Compiler	C1057		unexpected end of file in macro expansion	Fatal Error	http://msdn.microsoft.com/en-us/library/ys083ye6.aspx
-C/C++ Compiler	C1060		compiler is out of heap space	Fatal Error	http://msdn.microsoft.com/en-us/library/yz7kx3y2.aspx
-C/C++ Compiler	C1061		compiler limit : blocks nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/dcda4f64.aspx
-C/C++ Compiler	C1064		compiler limit : token overflowed internal buffer	Fatal Error	http://msdn.microsoft.com/en-us/library/ah687177.aspx
-C/C++ Compiler	C1065		compiler limit : out of tags	Fatal Error	http://msdn.microsoft.com/en-us/library/awd2zf20.aspx
-C/C++ Compiler	C1067		compiler limit : 64K limit on size of a type record has been exceeded	Fatal Error	http://msdn.microsoft.com/en-us/library/d8s456s8.aspx
-C/C++ Compiler	C1071		unexpected end of file found in comment	Fatal Error	http://msdn.microsoft.com/en-us/library/h5ee677a.aspx
-C/C++ Compiler	C1073		Internal error involving incremental compilation (compiler file 'filename', line number)	Fatal Error	http://msdn.microsoft.com/en-us/library/h10tcd0k.aspx
-C/C++ Compiler	C1075		end of file found before the left token at 'filename(linenumber)' was matched	Fatal Error	http://msdn.microsoft.com/en-us/library/4ybz0xh2.aspx
-C/C++ Compiler	C1076		compiler limit : internal heap limit reached; use /Zm to specify a higher limit	Fatal Error	http://msdn.microsoft.com/en-us/library/z8da5e34.aspx
-C/C++ Compiler	C1079		compiler limit : PCH file size limit exceeded	Fatal Error	http://msdn.microsoft.com/en-us/library/9ff4d7z4.aspx
-C/C++ Compiler	C1080		compiler limit : command line option exceeded limit of number characters	Fatal Error	http://msdn.microsoft.com/en-us/library/3t4whywe.aspx
-C/C++ Compiler	C1081		'symbol': file name too long	Fatal Error	http://msdn.microsoft.com/en-us/library/cybc0ka6.aspx
-C/C++ Compiler	C1083		Cannot open filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/et4zwx34.aspx
-C/C++ Compiler	C1084		Cannot read filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/5f1s5tde.aspx
-C/C++ Compiler	C1085		Cannot write filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/1s8cby67.aspx
-C/C++ Compiler	C1092		Edit and Continue does not support changes to data types; build required	Fatal Error	http://msdn.microsoft.com/en-us/library/t6ab57kt.aspx
-C/C++ Compiler	C1093		API call 'function name' failed 'location of call' : 'text from run-time'	Fatal Error	http://msdn.microsoft.com/en-us/library/y7ke5e4d.aspx
+C/C++ Compiler	C1001	InternalCompilerError	Internal Compiler Error	Fatal Error	http://msdn.microsoft.com/en-us/library/y19zxzb2.aspx
+C/C++ Compiler	C1002	CompilerIsOutOfHeapSpace	compiler is out of heap space in pass 2	Fatal Error	http://msdn.microsoft.com/en-us/library/c9e6fs6b.aspx
+C/C++ Compiler	C1004	UnexpectedEof	unexpected end of file found	Fatal Error	http://msdn.microsoft.com/en-us/library/4exw7xyc.aspx
+C/C++ Compiler	C1009	MacrosNestedTooDeeply	compiler limit : macros nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/df401k96.aspx
+C/C++ Compiler	C1010	UnexpectedEofWhileLookingForPrecompiledHeader	unexpected end of file while looking for precompiled header. Did you forget to add '#include name' to your source?	Fatal Error	http://msdn.microsoft.com/en-us/library/d7fz9ckx.aspx
+C/C++ Compiler	C1017	InvalidIntegerConstantExpression	invalid integer constant expression	Fatal Error	http://msdn.microsoft.com/en-us/library/h5sh3k99.aspx
+C/C++ Compiler	C1026	ParserStackOverflow	parser stack overflow, program too complex	Fatal Error	http://msdn.microsoft.com/en-us/library/789zf68a.aspx
+C/C++ Compiler	C1033	CannotOpenProgramDatabase	cannot open program database pdb	Fatal Error	http://msdn.microsoft.com/en-us/library/4ks5fw35.aspx
+C/C++ Compiler	C1046	StructureNestedTooDeeply	compiler limit : structure nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/ahk8b7h2.aspx
+C/C++ Compiler	C1051	ProgramDatabaseObsoleteFormat	program database file, 'pdbfile', has an obsolete format, delete it and recompile	Fatal Error	http://msdn.microsoft.com/en-us/library/752ye4bt.aspx
+C/C++ Compiler	C1054	InitializersNestedTooDeeply	compiler limit : initializers nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/x958zeft.aspx
+C/C++ Compiler	C1055	OutOfKeys	compiler limit : out of keys	Fatal Error	http://msdn.microsoft.com/en-us/library/3d859kh1.aspx
+C/C++ Compiler	C1057	UnexpectedEofInMacroExpansion	unexpected end of file in macro expansion	Fatal Error	http://msdn.microsoft.com/en-us/library/ys083ye6.aspx
+C/C++ Compiler	C1060	OutOfHeapSpace	compiler is out of heap space	Fatal Error	http://msdn.microsoft.com/en-us/library/yz7kx3y2.aspx
+C/C++ Compiler	C1061	BlocksNestedTooDeeply	compiler limit : blocks nested too deeply	Fatal Error	http://msdn.microsoft.com/en-us/library/dcda4f64.aspx
+C/C++ Compiler	C1064	TokenOverflowedInternalBuffer	compiler limit : token overflowed internal buffer	Fatal Error	http://msdn.microsoft.com/en-us/library/ah687177.aspx
+C/C++ Compiler	C1065	OutOfTags	compiler limit : out of tags	Fatal Error	http://msdn.microsoft.com/en-us/library/awd2zf20.aspx
+C/C++ Compiler	C1067	TypeRecordLimitSizeExceeded	compiler limit : 64K limit on size of a type record has been exceeded	Fatal Error	http://msdn.microsoft.com/en-us/library/d8s456s8.aspx
+C/C++ Compiler	C1071	UnexpectedEofInComment	unexpected end of file found in comment	Fatal Error	http://msdn.microsoft.com/en-us/library/h5ee677a.aspx
+C/C++ Compiler	C1073	IncrementalCompilationInternalError	Internal error involving incremental compilation (compiler file 'filename', line number)	Fatal Error	http://msdn.microsoft.com/en-us/library/h10tcd0k.aspx
+C/C++ Compiler	C1075	EofFoundBeforeTheLeftTokenWasMatched	end of file found before the left token at 'filename(linenumber)' was matched	Fatal Error	http://msdn.microsoft.com/en-us/library/4ybz0xh2.aspx
+C/C++ Compiler	C1076	InternalHeapLimitReached	compiler limit : internal heap limit reached; use /Zm to specify a higher limit	Fatal Error	http://msdn.microsoft.com/en-us/library/z8da5e34.aspx
+C/C++ Compiler	C1079	PCHFileSizeLimitExceeded	compiler limit : PCH file size limit exceeded	Fatal Error	http://msdn.microsoft.com/en-us/library/9ff4d7z4.aspx
+C/C++ Compiler	C1080	CommandLineOptionCharactersNumberExceeded 	compiler limit : command line option exceeded limit of number characters	Fatal Error	http://msdn.microsoft.com/en-us/library/3t4whywe.aspx
+C/C++ Compiler	C1081	FileNameTooLong	'symbol': file name too long	Fatal Error	http://msdn.microsoft.com/en-us/library/cybc0ka6.aspx
+C/C++ Compiler	C1083	CannotOpenFiletypeFile	Cannot open filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/et4zwx34.aspx
+C/C++ Compiler	C1084	CannotReadFiletypeFile	Cannot read filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/5f1s5tde.aspx
+C/C++ Compiler	C1085	CannotWriteFiletypeFile	Cannot write filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/1s8cby67.aspx
+C/C++ Compiler	C1092	EditAndContinueDataTypesChangesNotSupported 	Edit and Continue does not support changes to data types; build required	Fatal Error	http://msdn.microsoft.com/en-us/library/t6ab57kt.aspx
+C/C++ Compiler	C1093	APICallFailure	API call 'function name' failed 'location of call' : 'text from run-time'	Fatal Error	http://msdn.microsoft.com/en-us/library/y7ke5e4d.aspx
 C/C++ Compiler	C1094		'-Zmval1' : command line option is inconsistent with value used to build precompiled header ('-Zmval2')	Fatal Error	http://msdn.microsoft.com/en-us/library/3ztc68td.aspx
-C/C++ Compiler	C1100		unable to initialize OLE : system error message	Fatal Error	http://msdn.microsoft.com/en-us/library/d79fdc6s.aspx
-C/C++ Compiler	C1107		could not find assembly 'file': please specify the assembly search path using /AI or by setting the LIBPATH environment variable	Fatal Error	http://msdn.microsoft.com/en-us/library/xc76hcb7.aspx
-C/C++ Compiler	C1113		#using failed on 'file'	Fatal Error	http://msdn.microsoft.com/en-us/library/ms173557.aspx
-C/C++ Compiler	C1120		call to GetProcAddress failed for 'function'	Fatal Error	http://msdn.microsoft.com/en-us/library/990dbbac.aspx
-C/C++ Compiler	C1121		call to CryptoAPI failed	Fatal Error	http://msdn.microsoft.com/en-us/library/z5k3sf2e.aspx
-C/C++ Compiler	C1126		'identifier' : automatic allocation exceeds size	Fatal Error	http://msdn.microsoft.com/en-us/library/5cca7h9z.aspx
-C/C++ Compiler	C1128		number of sections exceeded object file format limit : compile with /bigobj	Fatal Error	http://msdn.microsoft.com/en-us/library/8578y171.aspx
-C/C++ Compiler	C1189		#error : user supplied error message	Fatal Error	http://msdn.microsoft.com/en-us/library/y0tzt8e0.aspx
-C/C++ Compiler	C1191		'dll' can only be imported at global scope	Fatal Error	http://msdn.microsoft.com/en-us/library/cf68e7d0.aspx
-C/C++ Compiler	C1192		#using failed on 'file'	Fatal Error	http://msdn.microsoft.com/en-us/library/z2ky5tfk.aspx
-C/C++ Compiler	C1197		cannot reference 'mscorlib.dll_1' as the program has already referenced 'mscorlib.dll_2'	Fatal Error	http://msdn.microsoft.com/en-us/library/yyww6c2y.aspx
-C/C++ Compiler	C1305		profile database 'pgd_file' is for a different architecture	Fatal Error	http://msdn.microsoft.com/en-us/library/35ahfd3b.aspx
-C/C++ Compiler	C1307		program has been edited since profile data was collected	Fatal Error	http://msdn.microsoft.com/en-us/library/ysft6h22.aspx
-C/C++ Compiler	C1308		linking assemblies is not supported	Fatal Error	http://msdn.microsoft.com/en-us/library/6wx1d7ae.aspx
-C/C++ Compiler	C1309		Mismatched versions of C2.DLL and PGODB&lt;version&gt;.DLL	Fatal Error	http://msdn.microsoft.com/en-us/library/zebek567.aspx
+C/C++ Compiler	C1100	UnableToInitializeOLE	unable to initialize OLE : system error message	Fatal Error	http://msdn.microsoft.com/en-us/library/d79fdc6s.aspx
+C/C++ Compiler	C1107	CouldNotFindAssembly	could not find assembly 'file': please specify the assembly search path using /AI or by setting the LIBPATH environment variable	Fatal Error	http://msdn.microsoft.com/en-us/library/xc76hcb7.aspx
+C/C++ Compiler	C1113	UsingFailed	#using failed on 'file'	Fatal Error	http://msdn.microsoft.com/en-us/library/ms173557.aspx
+C/C++ Compiler	C1120	GetProcAddressCallFailed	call to GetProcAddress failed for 'function'	Fatal Error	http://msdn.microsoft.com/en-us/library/990dbbac.aspx
+C/C++ Compiler	C1121	CryptoAPICallFailed	call to CryptoAPI failed	Fatal Error	http://msdn.microsoft.com/en-us/library/z5k3sf2e.aspx
+C/C++ Compiler	C1126	AutomaticAllocationExceedsSize	'identifier' : automatic allocation exceeds size	Fatal Error	http://msdn.microsoft.com/en-us/library/5cca7h9z.aspx
+C/C++ Compiler	C1128	NumberOfSectionsExceededObjectFileFormat limit	number of sections exceeded object file format limit : compile with /bigobj	Fatal Error	http://msdn.microsoft.com/en-us/library/8578y171.aspx
+C/C++ Compiler	C1189	UserSuppliedErrorMessage	#error : user supplied error message	Fatal Error	http://msdn.microsoft.com/en-us/library/y0tzt8e0.aspx
+C/C++ Compiler	C1191	DllCanOnlyBeImportedAtGlobalScope	'dll' can only be imported at global scope	Fatal Error	http://msdn.microsoft.com/en-us/library/cf68e7d0.aspx
+C/C++ Compiler	C1192	UsingFailed2	#using failed on 'file'	Fatal Error	http://msdn.microsoft.com/en-us/library/z2ky5tfk.aspx
+C/C++ Compiler	C1197	CannotReferenceMscorlibDll1	cannot reference 'mscorlib.dll_1' as the program has already referenced 'mscorlib.dll_2'	Fatal Error	http://msdn.microsoft.com/en-us/library/yyww6c2y.aspx
+C/C++ Compiler	C1305	ProfileDatabaseIsForADifferentArchitecture	profile database 'pgd_file' is for a different architecture	Fatal Error	http://msdn.microsoft.com/en-us/library/35ahfd3b.aspx
+C/C++ Compiler	C1307	ProgramEditedSinceProfileDataWasCollected	program has been edited since profile data was collected	Fatal Error	http://msdn.microsoft.com/en-us/library/ysft6h22.aspx
+C/C++ Compiler	C1308	LinkingAssembliesNotSupported	linking assemblies is not supported	Fatal Error	http://msdn.microsoft.com/en-us/library/6wx1d7ae.aspx
+C/C++ Compiler	C1309	MismatchedVersionsOfC2DLLAndPGODBDLL	Mismatched versions of C2.DLL and PGODB<version>.DLL	Fatal Error	http://msdn.microsoft.com/en-us/library/zebek567.aspx
 C/C++ Compiler	C1311		COFF format cannot statically initialize 'var' with number byte(s) of an address	Fatal Error	http://msdn.microsoft.com/en-us/library/2z61stb5.aspx
-C/C++ Compiler	C1313		compiler limit : type blocks may not be nested deeper than number levels	Fatal Error	http://msdn.microsoft.com/en-us/library/69074azh.aspx
-C/C++ Compiler	C1350		error loading dll 'dll': dll not found	Fatal Error	http://msdn.microsoft.com/en-us/library/ke6a2ay6.aspx
-C/C++ Compiler	C1382		the PCH file 'file' has been rebuilt since 'obj' was generated. Please rebuild this object	Fatal Error	http://msdn.microsoft.com/en-us/library/xkf7175d.aspx
-C/C++ Compiler	C1506		unrecoverable block scoping error	Fatal Error	http://msdn.microsoft.com/en-us/library/2k36xz81.aspx
-C/C++ Compiler	C1509		compiler limit : too many exception handler states in function 'function'. simplify function	Fatal Error	http://msdn.microsoft.com/en-us/library/673fh3hz.aspx
-C/C++ Compiler	C1600		unsupported data type	Fatal Error	http://msdn.microsoft.com/en-us/library/969h9e7z.aspx
-C/C++ Compiler	C1601		unsupported inline assembly opcode	Fatal Error	http://msdn.microsoft.com/en-us/library/hb7kw715.aspx
-C/C++ Compiler	C1602		unsupported intrinsic	Fatal Error	http://msdn.microsoft.com/en-us/library/za6204z5.aspx
-C/C++ Compiler	C1603		inline assembly branch target out of range by 'number' bytes	Fatal Error	http://msdn.microsoft.com/en-us/library/47xdkc00.aspx
-C/C++ Compiler	C1853		'filename' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)	Fatal Error	http://msdn.microsoft.com/en-us/library/5t8yz59b.aspx
+C/C++ Compiler	C1313	TypeBlocksMayNotBeNestedDeeperThanNumberLevels	compiler limit : type blocks may not be nested deeper than number levels	Fatal Error	http://msdn.microsoft.com/en-us/library/69074azh.aspx
+C/C++ Compiler	C1350	DllNotFound	error loading dll 'dll': dll not found	Fatal Error	http://msdn.microsoft.com/en-us/library/ke6a2ay6.aspx
+C/C++ Compiler	C1382	PCHFileWasRebuiltSinceObjWasGenerated	the PCH file 'file' has been rebuilt since 'obj' was generated. Please rebuild this object	Fatal Error	http://msdn.microsoft.com/en-us/library/xkf7175d.aspx
+C/C++ Compiler	C1506	UnrecoverableBlockScopingError	unrecoverable block scoping error	Fatal Error	http://msdn.microsoft.com/en-us/library/2k36xz81.aspx
+C/C++ Compiler	C1509	TooManyExceptionHandlerStatesInFunction	compiler limit : too many exception handler states in function 'function'. simplify function	Fatal Error	http://msdn.microsoft.com/en-us/library/673fh3hz.aspx
+C/C++ Compiler	C1600	UnsupportedDataType	unsupported data type	Fatal Error	http://msdn.microsoft.com/en-us/library/969h9e7z.aspx
+C/C++ Compiler	C1601	UnsupportedInlineAssemblyOpcode	unsupported inline assembly opcode	Fatal Error	http://msdn.microsoft.com/en-us/library/hb7kw715.aspx
+C/C++ Compiler	C1602	UnsupportedIntrinsic	unsupported intrinsic	Fatal Error	http://msdn.microsoft.com/en-us/library/za6204z5.aspx
+C/C++ Compiler	C1603	InlineAssemblyBranchTargetOutOfRange	inline assembly branch target out of range by 'number' bytes	Fatal Error	http://msdn.microsoft.com/en-us/library/47xdkc00.aspx
+C/C++ Compiler	C1853	StalePrecompiledHeaderFile	'filename' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)	Fatal Error	http://msdn.microsoft.com/en-us/library/5t8yz59b.aspx
 C/C++ Compiler	C1854		cannot overwrite information formed during creation of the precompiled header in object file: 'filename'	Fatal Error	http://msdn.microsoft.com/en-us/library/5a193hd8.aspx
-C/C++ Compiler	C1900		Il mismatch between 'tool1' version 'number1' and 'tool2' version 'number2'	Fatal Error	http://msdn.microsoft.com/en-us/library/ks07be9f.aspx
-C/C++ Compiler	C1902		program database manager mismatch; please check your installation	Fatal Error	http://msdn.microsoft.com/en-us/library/8y7hea02.aspx
-C/C++ Compiler	C1905		Front end and back end not compatible (must target same processor)	Fatal Error	http://msdn.microsoft.com/en-us/library/414e6214.aspx
-C/C++ Compiler	C2001		newline in constant	Error	http://msdn.microsoft.com/en-us/library/4x3c2e37.aspx
-C/C++ Compiler	C2002		invalid wide-character constant	Error	http://msdn.microsoft.com/en-us/library/9k7eyt96.aspx
-C/C++ Compiler	C2003		expected 'defined id'	Error	http://msdn.microsoft.com/en-us/library/ts2ba83w.aspx
-C/C++ Compiler	C2005		#line expected a line number, found 'token'	Error	http://msdn.microsoft.com/en-us/library/t9y1yzxa.aspx
-C/C++ Compiler	C2006		'directive' expected a filename, found 'token'	Error	http://msdn.microsoft.com/en-us/library/dc232hsx.aspx
-C/C++ Compiler	C2007		#define syntax	Error	http://msdn.microsoft.com/en-us/library/ket47se8.aspx
-C/C++ Compiler	C2008		'character' : unexpected in macro definition	Error	http://msdn.microsoft.com/en-us/library/4f56f136.aspx
-C/C++ Compiler	C2009		reuse of macro formal 'identifier'	Error	http://msdn.microsoft.com/en-us/library/h7x27s26.aspx
-C/C++ Compiler	C2010		'character' : unexpected in macro formal parameter list	Error	http://msdn.microsoft.com/en-us/library/64sxk83h.aspx
-C/C++ Compiler	C2011		'identifier' : 'type' type redefinition	Error	http://msdn.microsoft.com/en-us/library/sksadsda.aspx
-C/C++ Compiler	C2014		preprocessor command must start as first nonwhite space	Error	http://msdn.microsoft.com/en-us/library/k1795kd9.aspx
-C/C++ Compiler	C2015		too many characters in constant	Error	http://msdn.microsoft.com/en-us/library/s7f33t4h.aspx
-C/C++ Compiler	C2017		illegal escape sequence	Error	http://msdn.microsoft.com/en-us/library/29t70y03.aspx
-C/C++ Compiler	C2018		unknown character 'hexnumber'	Error	http://msdn.microsoft.com/en-us/library/977dd354.aspx
-C/C++ Compiler	C2019		expected preprocessor directive, found 'character'	Error	http://msdn.microsoft.com/en-us/library/t805xaef.aspx
+C/C++ Compiler	C1900	IlMismatch	Il mismatch between 'tool1' version 'number1' and 'tool2' version 'number2'	Fatal Error	http://msdn.microsoft.com/en-us/library/ks07be9f.aspx
+C/C++ Compiler	C1902	ProgramDatabaseManagerMismatch	program database manager mismatch; please check your installation	Fatal Error	http://msdn.microsoft.com/en-us/library/8y7hea02.aspx
+C/C++ Compiler	C1905	FrontEndAndBackEndNotCompatible	Front end and back end not compatible (must target same processor)	Fatal Error	http://msdn.microsoft.com/en-us/library/414e6214.aspx
+C/C++ Compiler	C2001	NewlineInConstant	newline in constant	Error	http://msdn.microsoft.com/en-us/library/4x3c2e37.aspx
+C/C++ Compiler	C2002	InvalidWideCharacterConstant	invalid wide-character constant	Error	http://msdn.microsoft.com/en-us/library/9k7eyt96.aspx
+C/C++ Compiler	C2003	ExpectedDefinedId	expected 'defined id'	Error	http://msdn.microsoft.com/en-us/library/ts2ba83w.aspx
+C/C++ Compiler	C2005	LineExpected	#line expected a line number, found 'token'	Error	http://msdn.microsoft.com/en-us/library/t9y1yzxa.aspx
+C/C++ Compiler	C2006	DirectiveExpectedFilename	'directive' expected a filename, found 'token'	Error	http://msdn.microsoft.com/en-us/library/dc232hsx.aspx
+C/C++ Compiler	C2007	DefineSyntax	#define syntax	Error	http://msdn.microsoft.com/en-us/library/ket47se8.aspx
+C/C++ Compiler	C2008	CharacterUnexpectedInMacroDefinition	'character' : unexpected in macro definition	Error	http://msdn.microsoft.com/en-us/library/4f56f136.aspx
+C/C++ Compiler	C2009	ReuseOfMacroFormal	reuse of macro formal 'identifier'	Error	http://msdn.microsoft.com/en-us/library/h7x27s26.aspx
+C/C++ Compiler	C2010	CharacterUnexpectedInMacroFormalParameterList	'character' : unexpected in macro formal parameter list	Error	http://msdn.microsoft.com/en-us/library/64sxk83h.aspx
+C/C++ Compiler	C2011	TypeRedefinition	'identifier' : 'type' type redefinition	Error	http://msdn.microsoft.com/en-us/library/sksadsda.aspx
+C/C++ Compiler	C2014	PreprocessorCommandMustStartAsFirstNonwhiteSpace	preprocessor command must start as first nonwhite space	Error	http://msdn.microsoft.com/en-us/library/k1795kd9.aspx
+C/C++ Compiler	C2015	TooManyCharactersInConstant	too many characters in constant	Error	http://msdn.microsoft.com/en-us/library/s7f33t4h.aspx
+C/C++ Compiler	C2017	IllegalEscapeSequence	illegal escape sequence	Error	http://msdn.microsoft.com/en-us/library/29t70y03.aspx
+C/C++ Compiler	C2018	UnknownCharacterInHexnumber	unknown character 'hexnumber'	Error	http://msdn.microsoft.com/en-us/library/977dd354.aspx
+C/C++ Compiler	C2019	ExpectedPreprocessorDirective	expected preprocessor directive, found 'character'	Error	http://msdn.microsoft.com/en-us/library/t805xaef.aspx
 C/C++ Compiler	C2020		'member' : 'class' member redefinition	Error	http://msdn.microsoft.com/en-us/library/kkfkh5by.aspx
 C/C++ Compiler	C2021		expected exponent value, not 'character'	Error	http://msdn.microsoft.com/en-us/library/986k91hd.aspx
 C/C++ Compiler	C2022		'number' : too big for character	Error	http://msdn.microsoft.com/en-us/library/0dw8eyws.aspx
