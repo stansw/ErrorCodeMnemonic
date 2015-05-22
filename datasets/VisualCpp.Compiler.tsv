@@ -212,7 +212,7 @@ C/C++ Compiler	C2276		'operator' : illegal operation on bound member function ex
 C/C++ Compiler	C2277		'identifier' : cannot take address of this member function	Error	http://msdn.microsoft.com/en-us/library/049f98xy.aspx
 C/C++ Compiler	C2279		exception specification cannot appear in a typedef declaration	Error	http://msdn.microsoft.com/en-us/library/7c38yzs9.aspx
 C/C++ Compiler	C2285		pointers to members representation has already been determined - pragma ignored	Error	http://msdn.microsoft.com/en-us/library/h32dy7wz.aspx
-C/C++ Compiler	C2286		pointers to members of 'identifier' representation is already set to 'inheritance' ??? declaration ignored	Error	http://msdn.microsoft.com/en-us/library/9z8tbhb2.aspx
+C/C++ Compiler	C2286		pointers to members of 'identifier' representation is already set to 'inheritance' - declaration ignored	Error	http://msdn.microsoft.com/en-us/library/9z8tbhb2.aspx
 C/C++ Compiler	C2287		'class': inheritance representation: 'representation1' is less general than the required 'representation2'	Error	http://msdn.microsoft.com/en-us/library/9s7t2kws.aspx
 C/C++ Compiler	C2292		'identifier': best case inheritance representation: 'representation1' declared but 'representation2' required	Error	http://msdn.microsoft.com/en-us/library/sehycyw0.aspx
 C/C++ Compiler	C2296		'operator' : bad left operand	Error	http://msdn.microsoft.com/en-us/library/xe71wayt.aspx
@@ -1104,14 +1104,14 @@ C/C++ Compiler	C4268		'identifier' : 'const' static/global data initialized with
 C/C++ Compiler	C4269		'identifier' : 'const' automatic data initialized with compiler generated default constructor produces unreliable results	Warning	http://msdn.microsoft.com/en-us/library/424ea098.aspx
 C/C++ Compiler	C4272		'function' : is marked __declspec(dllimport); must specify native calling convention when importing a function.	Warning	http://msdn.microsoft.com/en-us/library/s5k2h2fa.aspx
 C/C++ Compiler	C4273		'function' : inconsistent DLL linkage	Warning	http://msdn.microsoft.com/en-us/library/35bhkfb6.aspx
-C/C++ Compiler	C4275		non ??? DLL-interface classkey 'identifier' used as base for DLL-interface classkey 'identifier'	Warning	http://msdn.microsoft.com/en-us/library/3tdb471s.aspx
+C/C++ Compiler	C4275		non - DLL-interface classkey 'identifier' used as base for DLL-interface classkey 'identifier'	Warning	http://msdn.microsoft.com/en-us/library/3tdb471s.aspx
 C/C++ Compiler	C4276		'function' : no prototype provided; assumed no parameters	Warning	http://msdn.microsoft.com/en-us/library/48xa779y.aspx
 C/C++ Compiler	C4278		'identifier': identifier in type library 'tlb' is already a macro; use the 'rename' qualifier	Warning	http://msdn.microsoft.com/en-us/library/eszd7edh.aspx
-C/C++ Compiler	C4280		'operator ???&gt;' was self recursive through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/fxhxzbw8.aspx
-C/C++ Compiler	C4281		'operator ???&gt;' recursion occurred through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/73z06dez.aspx
+C/C++ Compiler	C4280		'operator ->' was self recursive through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/fxhxzbw8.aspx
+C/C++ Compiler	C4281		'operator ->' recursion occurred through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/73z06dez.aspx
 C/C++ Compiler	C4282		then through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/3sbz4h80.aspx
 C/C++ Compiler	C4283		and through type 'type'	Warning	http://msdn.microsoft.com/en-us/library/tf0c15s7.aspx
-C/C++ Compiler	C4285		return type for 'identifier::operator ???&gt;' is recursive if applied using infix notation	Warning	http://msdn.microsoft.com/en-us/library/e9e8hhdb.aspx
+C/C++ Compiler	C4285		return type for 'identifier::operator ->' is recursive if applied using infix notation	Warning	http://msdn.microsoft.com/en-us/library/e9e8hhdb.aspx
 C/C++ Compiler	C4286		'type1' : is caught by base class ('type2') on line number	Warning	http://msdn.microsoft.com/en-us/library/z9ta10a8.aspx
 C/C++ Compiler	C4287		'operator' : unsigned/negative constant mismatch	Warning	http://msdn.microsoft.com/en-us/library/33s0was4.aspx
 C/C++ Compiler	C4288		nonstandard extension used : 'var' : loop control variable declared in the for-loop is used outside the for-loop scope; it conflicts with the declaration in the outer scope	Warning	http://msdn.microsoft.com/en-us/library/bk5hc10s.aspx
@@ -1274,7 +1274,7 @@ C/C++ Compiler	C4570		'type' : is not explicitly declared as abstract but has ab
 C/C++ Compiler	C4571		Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught	Warning	http://msdn.microsoft.com/en-us/library/55s8esw4.aspx
 C/C++ Compiler	C4572		 [ParamArray] attribute is deprecated under /clr, use '...' instead	Warning	http://msdn.microsoft.com/en-us/library/ms173706.aspx
 C/C++ Compiler	C4580		[attribute] is deprecated; instead specify System::Attribute as a base class	Warning	http://msdn.microsoft.com/en-us/library/ms173707.aspx
-C/C++ Compiler	C4581		deprecated behavior: '"string1"' replaced with 'string2' to process attribute	Warning	http://msdn.microsoft.com/en-us/library/ms173708.aspx
+C/C++ Compiler	C4581		deprecated behavior: quoted 'string1' replaced with 'string2' to process attribute	Warning	http://msdn.microsoft.com/en-us/library/ms173708.aspx
 C/C++ Compiler	C4584		'class1' : base-class 'class2' is already a base-class of 'class3'	Warning	http://msdn.microsoft.com/en-us/library/69wx1dz9.aspx
 C/C++ Compiler	C4600		#pragma 'macro name' : expected a valid non-empty string	Warning	http://msdn.microsoft.com/en-us/library/xy0xf298.aspx
 C/C++ Compiler	C4606		#pragma warning : 'warning_number' ignored; Code Analysis warnings are not associated with warning levels	Warning	http://msdn.microsoft.com/en-us/library/ms173710.aspx
@@ -1325,7 +1325,7 @@ C/C++ Compiler	C4715		'function' : not all control paths return a value	Warning	
 C/C++ Compiler	C4716		'function' must return a value	Warning	http://msdn.microsoft.com/en-us/library/ft5xye74.aspx
 C/C++ Compiler	C4717		'function' : recursive on all control paths, function will cause runtime stack overflow	Warning	http://msdn.microsoft.com/en-us/library/97c54274.aspx
 C/C++ Compiler	C4723		potential divide by 0	Warning	http://msdn.microsoft.com/en-us/library/8kd039eh.aspx
-C/C++ Compiler	C4727		"PCH named pch_file with same timestamp found in obj_file_1 and obj_file_2.  Using first PCH.	Warning	http://msdn.microsoft.com/en-us/library/ms235540.aspx
+C/C++ Compiler	C4727		PCH named pch_file with same timestamp found in obj_file_1 and obj_file_2.  Using first PCH.	Warning	http://msdn.microsoft.com/en-us/library/ms235540.aspx
 C/C++ Compiler	C4730		'main' : mixing _m64 and floating point expressions may result in incorrect code	Warning	http://msdn.microsoft.com/en-us/library/3z3ww2w3.aspx
 C/C++ Compiler	C4731		'pointer' : frame pointer register 'register' modified by inline assembly code	Warning	http://msdn.microsoft.com/en-us/library/ywz8xf2a.aspx
 C/C++ Compiler	C4733		Inline asm assigning to 'FS:0' : handler not registered as safe handler	Warning	http://msdn.microsoft.com/en-us/library/ha52ak6a.aspx
