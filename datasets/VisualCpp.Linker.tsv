@@ -1,26 +1,26 @@
 Program	Code	Mnemonic	Summary	Severity	HelpLink
-C/C++ Linker	LNK1000		unknown error; consult documentation for technical support options	Error	http://msdn.microsoft.com/en-us/library/89cx16e6.aspx
-C/C++ Linker	LNK1103		debugging information corrupt; recompile module	Error	http://msdn.microsoft.com/en-us/library/abz4dchs.aspx
-C/C++ Linker	LNK1104		cannot open file 'filename'	Error	http://msdn.microsoft.com/en-us/library/ts7eyw4s.aspx
-C/C++ Linker	LNK1106		invalid file or disk full: cannot seek to&nbsp;location	Error	http://msdn.microsoft.com/en-us/library/dxd2zbyd.aspx
-C/C++ Linker	LNK1107		invalid or corrupt file: cannot read at location	Error	http://msdn.microsoft.com/en-us/library/0h6ctxtk.aspx
+C/C++ Linker	LNK1000	UnknownError	unknown error; consult documentation for technical support options	Error	http://msdn.microsoft.com/en-us/library/89cx16e6.aspx
+C/C++ Linker	LNK1103	DebuggingInformationCorrupt	debugging information corrupt; recompile module	Error	http://msdn.microsoft.com/en-us/library/abz4dchs.aspx
+C/C++ Linker	LNK1104	CannotOpenFile	cannot open file 'filename'	Error	http://msdn.microsoft.com/en-us/library/ts7eyw4s.aspx
+C/C++ Linker	LNK1106	InvalidFileOrDiskFull	invalid file or disk full: cannot seek to&nbsp;location	Error	http://msdn.microsoft.com/en-us/library/dxd2zbyd.aspx
+C/C++ Linker	LNK1107	InvalidOrCorruptFileCannotRead	invalid or corrupt file: cannot read at location	Error	http://msdn.microsoft.com/en-us/library/0h6ctxtk.aspx
 C/C++ Linker	LNK1112		module machine type 'type1' conflicts with target machine type 'type2'	Error	http://msdn.microsoft.com/en-us/library/21ksa10x.aspx
 C/C++ Linker	LNK1113		invalid machine type type	Error	http://msdn.microsoft.com/en-us/library/0s0w7cc6.aspx
 C/C++ Linker	LNK1120		number unresolved externals	Error	http://msdn.microsoft.com/en-us/library/z98k84c3.aspx
 C/C++ Linker	LNK1123		failure during conversion to COFF: file invalid or corrupt	Error	http://msdn.microsoft.com/en-us/library/7dz62kfh.aspx
-C/C++ Linker	LNK1127		library is corrupt	Error	http://msdn.microsoft.com/en-us/library/6827wdkc.aspx
+C/C++ Linker	LNK1127	LibraryIsCorrupt	library is corrupt	Error	http://msdn.microsoft.com/en-us/library/6827wdkc.aspx
 C/C++ Linker	LNK1136		invalid or corrupt file	Error	http://msdn.microsoft.com/en-us/library/6azkch2c.aspx
 C/C++ Linker	LNK1140		too many modules for program database; link with /PDB:NONE	Error	http://msdn.microsoft.com/en-us/library/83x1x32b.aspx
 C/C++ Linker	LNK1141		failure during build of exports file	Error	http://msdn.microsoft.com/en-us/library/s011eyfx.aspx
 C/C++ Linker	LNK1143		invalid or corrupt file: no symbol for COMDAT section number	Error	http://msdn.microsoft.com/en-us/library/9yas2xs2.aspx
 C/C++ Linker	LNK1152		cannot resolve one or more undecorated symbols	Error	http://msdn.microsoft.com/en-us/library/3802xyyy.aspx
-C/C++ Linker	LNK1158		cannot run 'filename'	Error	http://msdn.microsoft.com/en-us/library/58e16fxc.aspx
+C/C++ Linker	LNK1158	CannotRun	cannot run 'filename'	Error	http://msdn.microsoft.com/en-us/library/58e16fxc.aspx
 C/C++ Linker	LNK1164		section section alignment (number) greater than /ALIGN value	Error	http://msdn.microsoft.com/en-us/library/c2dx9b4k.aspx
 C/C++ Linker	LNK1166		cannot adjust code at offset=offset, va=value	Error	http://msdn.microsoft.com/en-us/library/80995dsa.aspx
 C/C++ Linker	LNK1168		cannot open filename for writing	Error	http://msdn.microsoft.com/en-us/library/hhbdtt6d.aspx
 C/C++ Linker	LNK1169		one or more multiply defined symbols found	Error	http://msdn.microsoft.com/en-us/library/xttf5w7w.aspx
 C/C++ Linker	LNK1179		invalid or corrupt file: duplicate COMDAT 'filename'	Error	http://msdn.microsoft.com/en-us/library/cddbs9aw.aspx
-C/C++ Linker	LNK1181		cannot open input file 'filename'	Error	http://msdn.microsoft.com/en-us/library/y6b12xkc.aspx
+C/C++ Linker	LNK1181	CannotOpenInputFile	cannot open input file 'filename'	Error	http://msdn.microsoft.com/en-us/library/y6b12xkc.aspx
 C/C++ Linker	LNK1188		BADFIXUPSECTION:: invalid fixup target 'symbol'; possible zero length section	Error	http://msdn.microsoft.com/en-us/library/8y26de9z.aspx
 C/C++ Linker	LNK1189		LIBTOOMANYMEMBERS:: library limit of number objects exceeded	Error	http://msdn.microsoft.com/en-us/library/at5879hx.aspx
 C/C++ Linker	LNK1196		invalid or corrupt import object: unknown version	Error	http://msdn.microsoft.com/en-us/library/a57xaebs.aspx
@@ -37,7 +37,7 @@ C/C++ Linker	LNK1240		failed to compile IDL content	Error	http://msdn.microsoft.
 C/C++ Linker	LNK1241		resource file 'resource file' already specified	Error	http://msdn.microsoft.com/en-us/library/zxb57007.aspx
 C/C++ Linker	LNK1245		invalid subsystem 'subsystem' specified; /SUBSYSTEM must be WINDOWS, WINDOWSCE, or CONSOLE	Error	http://msdn.microsoft.com/en-us/library/a080taze.aspx
 C/C++ Linker	LNK1248		image size ('size') exceeds maximum allowable size (80000000)	Error	http://msdn.microsoft.com/en-us/library/1cbeb9f0.aspx
-C/C++ Linker	LNK1256		ALINK operation failed : reason	Error	http://msdn.microsoft.com/en-us/library/c443fzwf.aspx
+C/C++ Linker	LNK1256	ALINKOperationFailed	ALINK operation failed : reason	Error	http://msdn.microsoft.com/en-us/library/c443fzwf.aspx
 C/C++ Linker	LNK1264		/LTCG:PGINSTRUMENT specified but no code generation required; instrumentation failed	Error	http://msdn.microsoft.com/en-us/library/5202c6a0.aspx
 C/C++ Linker	LNK1277		object record not found in pgd (filename)	Error	http://msdn.microsoft.com/en-us/library/wtwty9x7.aspx
 C/C++ Linker	LNK1282		unable to /REBASE file; it has been signed	Error	http://msdn.microsoft.com/en-us/library/70fxkt41.aspx
@@ -52,14 +52,14 @@ C/C++ Linker	LNK1313		ijw/native module detected; cannot link with pure modules	
 C/C++ Linker	LNK1314		corrupt or invalid COFF symbol table (undefined static or label symbol)	Error	http://msdn.microsoft.com/en-us/library/ms173728.aspx
 C/C++ Linker	LNK1332		detected &lt;count&gt; Windows Runtime types imported in one module and defined in another module	Error	http://msdn.microsoft.com/en-us/library/jj635871.aspx
 C/C++ Linker	LNK1561		entry point must be defined	Error	http://msdn.microsoft.com/en-us/library/ky737ya4.aspx
-C/C++ Linker	LNK2001		unresolved external symbol "symbol"	Error	http://msdn.microsoft.com/en-us/library/f6xx1b1z.aspx
+C/C++ Linker	LNK2001	UnresolvedExternalSymbol	unresolved external symbol "symbol"	Error	http://msdn.microsoft.com/en-us/library/f6xx1b1z.aspx
 C/C++ Linker	LNK2004		gp relative fixup overflow to 'target'; short section 'section' is too large or out of range.	Error	http://msdn.microsoft.com/en-us/library/skx8weea.aspx
-C/C++ Linker	LNK2005		symbol already defined in object	Error	http://msdn.microsoft.com/en-us/library/72zdcz6f.aspx
+C/C++ Linker	LNK2005	SymbolAlreadyDefinedInObject	symbol already defined in object	Error	http://msdn.microsoft.com/en-us/library/72zdcz6f.aspx
 C/C++ Linker	LNK2008		Fixup target is not aligned 'symbol_name'	Error	http://msdn.microsoft.com/en-us/library/eatcwbe8.aspx
 C/C++ Linker	LNK2011		precompiled object not linked in; image may not run	Error	http://msdn.microsoft.com/en-us/library/3ay26wa2.aspx
 C/C++ Linker	LNK2013		fixup type fixup overflow. Target 'symbol name' is out of range	Error	http://msdn.microsoft.com/en-us/library/bc3e8d1t.aspx
 C/C++ Linker	LNK2017		'symbol' relocation to 'segment' invalid without /LARGEADDRESSAWARE:NO	Error	http://msdn.microsoft.com/en-us/library/daszf0sk.aspx
-C/C++ Linker	LNK2019		unresolved external symbol 'symbol' referenced in function 'function'	Error	http://msdn.microsoft.com/en-us/library/799kze2z.aspx
+C/C++ Linker	LNK2019	UnresolvedExternalSymbolReferencedInFunction	unresolved external symbol 'symbol' referenced in function 'function'	Error	http://msdn.microsoft.com/en-us/library/799kze2z.aspx
 C/C++ Linker	LNK2020		unresolved token 'token'	Error	http://msdn.microsoft.com/en-us/library/b57tw91b.aspx
 C/C++ Linker	LNK2022		metadata operation failed (HRESULT) : error_message	Error	http://msdn.microsoft.com/en-us/library/zkf0dz41.aspx
 C/C++ Linker	LNK2023		bad dll or entry point &lt;dll or entry point&gt;	Error	http://msdn.microsoft.com/en-us/library/1z23w366.aspx

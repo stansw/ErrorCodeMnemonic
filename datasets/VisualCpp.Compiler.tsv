@@ -27,6 +27,8 @@ C/C++ Compiler	C1081	FileNameTooLong	'symbol': file name too long	Fatal Error	ht
 C/C++ Compiler	C1083	CannotOpenFiletypeFile	Cannot open filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/et4zwx34.aspx
 C/C++ Compiler	C1084	CannotReadFiletypeFile	Cannot read filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/5f1s5tde.aspx
 C/C++ Compiler	C1085	CannotWriteFiletypeFile	Cannot write filetype file: 'file': message	Fatal Error	http://msdn.microsoft.com/en-us/library/1s8cby67.aspx
+C/C++ Compiler	C1088	CannotFlushFiletypeFile	Cannot flush filetype file: 'file': message	Fatal Error	https://msdn.microsoft.com/en-us/library/s1byzbxd.aspx
+C/C++ Compiler	C1090	DataAllocationExceeds64K 	Data allocation exceeds 64K	Fatal Error	https://msdn.microsoft.com/en-us/library/aa983535.aspx
 C/C++ Compiler	C1092	EditAndContinueDataTypesChangesNotSupported 	Edit and Continue does not support changes to data types; build required	Fatal Error	http://msdn.microsoft.com/en-us/library/t6ab57kt.aspx
 C/C++ Compiler	C1093	APICallFailure	API call 'function name' failed 'location of call' : 'text from run-time'	Fatal Error	http://msdn.microsoft.com/en-us/library/y7ke5e4d.aspx
 C/C++ Compiler	C1094		'-Zmval1' : command line option is inconsistent with value used to build precompiled header ('-Zmval2')	Fatal Error	http://msdn.microsoft.com/en-us/library/3ztc68td.aspx
@@ -79,11 +81,11 @@ C/C++ Compiler	C2020		'member' : 'class' member redefinition	Error	http://msdn.m
 C/C++ Compiler	C2021		expected exponent value, not 'character'	Error	http://msdn.microsoft.com/en-us/library/986k91hd.aspx
 C/C++ Compiler	C2022		'number' : too big for character	Error	http://msdn.microsoft.com/en-us/library/0dw8eyws.aspx
 C/C++ Compiler	C2026		string too big, trailing characters truncated	Error	http://msdn.microsoft.com/en-us/library/dddywwsc.aspx
-C/C++ Compiler	C2027		use of undefined type 'type'	Error	http://msdn.microsoft.com/en-us/library/6c2dk0ah.aspx
+C/C++ Compiler	C2027	UseOfUndefinedType	use of undefined type 'type'	Error	http://msdn.microsoft.com/en-us/library/6c2dk0ah.aspx
 C/C++ Compiler	C2032		'identifier' : function cannot be member of struct/union 'structorunion'	Error	http://msdn.microsoft.com/en-us/library/39ewy34z.aspx
 C/C++ Compiler	C2034		'identifier' : type of bit field too small for number of bits	Error	http://msdn.microsoft.com/en-us/library/w99za7yk.aspx
 C/C++ Compiler	C2036		'identifier' : unknown size	Error	http://msdn.microsoft.com/en-us/library/1kay26wa.aspx
-C/C++ Compiler	C2039		'identifier1' : is not a member of 'identifier2'	Error	http://msdn.microsoft.com/en-us/library/fdwb3fd7.aspx
+C/C++ Compiler	C2039	MemberNotFound	'identifier1' : is not a member of 'identifier2'	Error	http://msdn.microsoft.com/en-us/library/fdwb3fd7.aspx
 C/C++ Compiler	C2040		'operator' : 'identifier1' differs in levels of indirection from 'identifier2'	Error	http://msdn.microsoft.com/en-us/library/kb3dky0e.aspx
 C/C++ Compiler	C2041		illegal digit 'character' for base 'number'	Error	http://msdn.microsoft.com/en-us/library/setawcaz.aspx
 C/C++ Compiler	C2050		switch expression not integral	Error	http://msdn.microsoft.com/en-us/library/sx5yxyzc.aspx
@@ -94,12 +96,12 @@ C/C++ Compiler	C2054		expected '(' to follow 'identifier'	Error	http://msdn.micr
 C/C++ Compiler	C2055		expected formal parameter list, not a type list	Error	http://msdn.microsoft.com/en-us/library/w8s382kk.aspx
 C/C++ Compiler	C2056		illegal expression	Error	http://msdn.microsoft.com/en-us/library/89tt256x.aspx
 C/C++ Compiler	C2057		expected constant expression	Error	http://msdn.microsoft.com/en-us/library/eff825eh.aspx
-C/C++ Compiler	C2059		syntax error : 'token'	Error	http://msdn.microsoft.com/en-us/library/t8xe60cf.aspx
-C/C++ Compiler	C2060		syntax error : end of file found	Error	http://msdn.microsoft.com/en-us/library/4yz2hx50.aspx
-C/C++ Compiler	C2061		syntax error : identifier 'identifier'	Error	http://msdn.microsoft.com/en-us/library/yha416c7.aspx
-C/C++ Compiler	C2062		type 'type' unexpected	Error	http://msdn.microsoft.com/en-us/library/atx4s5t4.aspx
+C/C++ Compiler	C2059	SyntaxErrorToken	syntax error : 'token'	Error	http://msdn.microsoft.com/en-us/library/t8xe60cf.aspx
+C/C++ Compiler	C2060	SyntaxErrorEof	syntax error : end of file found	Error	http://msdn.microsoft.com/en-us/library/4yz2hx50.aspx
+C/C++ Compiler	C2061	SyntaxErrorIdentifier	syntax error : identifier 'identifier'	Error	http://msdn.microsoft.com/en-us/library/yha416c7.aspx
+C/C++ Compiler	C2062	UnexpectedType	type 'type' unexpected	Error	http://msdn.microsoft.com/en-us/library/atx4s5t4.aspx
 C/C++ Compiler	C2064		term does not evaluate to a function taking 'number' arguments	Error	http://msdn.microsoft.com/en-us/library/z72c1dfd.aspx
-C/C++ Compiler	C2065		'identifier' : undeclared identifier	Error	http://msdn.microsoft.com/en-us/library/ewcf0002.aspx
+C/C++ Compiler	C2065	UndeclaredIdentifier	'identifier' : undeclared identifier	Error	http://msdn.microsoft.com/en-us/library/ewcf0002.aspx
 C/C++ Compiler	C2066		cast to function type is illegal	Error	http://msdn.microsoft.com/en-us/library/695102d5.aspx
 C/C++ Compiler	C2070		'type': illegal sizeof operand	Error	http://msdn.microsoft.com/en-us/library/9adz64y0.aspx
 C/C++ Compiler	C2071		'identifier' : illegal storage class	Error	http://msdn.microsoft.com/en-us/library/deb3kh5w.aspx
@@ -109,7 +111,7 @@ C/C++ Compiler	C2077		non-scalar field initializer 'identifier'	Error	http://msd
 C/C++ Compiler	C2078		too many initializers	Error	http://msdn.microsoft.com/en-us/library/663y2htx.aspx
 C/C++ Compiler	C2079		'identifier' uses undefined class/struct/union 'name'	Error	http://msdn.microsoft.com/en-us/library/9ekhdcxs.aspx
 C/C++ Compiler	C2081		'identifier' : name in formal parameter list illegal	Error	http://msdn.microsoft.com/en-us/library/67bk6w13.aspx
-C/C++ Compiler	C2084		function 'function' already has a body	Error	http://msdn.microsoft.com/en-us/library/xs4hat8z.aspx
+C/C++ Compiler	C2084	FunctionFunctionAlreadyHasBody	function 'function' already has a body	Error	http://msdn.microsoft.com/en-us/library/xs4hat8z.aspx
 C/C++ Compiler	C2085		'identifier' : not in formal parameter list	Error	http://msdn.microsoft.com/en-us/library/bst88fzb.aspx
 C/C++ Compiler	C2086		'identifier' : redefinition	Error	http://msdn.microsoft.com/en-us/library/hdw9ww53.aspx
 C/C++ Compiler	C2087		'identifier' : missing subscript	Error	http://msdn.microsoft.com/en-us/library/xa2axfh9.aspx
@@ -142,9 +144,9 @@ C/C++ Compiler	C2139		'type' : an undefined class is not allowed as an argument 
 C/C++ Compiler	C2140		'type' : a type that is dependent on a generic type parameter is not allowed as an argument to compiler intrinsic type trait 'trait'	Error	http://msdn.microsoft.com/en-us/library/ms173568.aspx
 C/C++ Compiler	C2141		array size overflow	Error	http://msdn.microsoft.com/en-us/library/ms235252.aspx
 C/C++ Compiler	C2142		function declarations differ, variable parameters specified only in one of them	Error	http://msdn.microsoft.com/en-us/library/0w2982ds.aspx
-C/C++ Compiler	C2143		syntax error : missing 'token1' before 'token2'	Error	http://msdn.microsoft.com/en-us/library/0afb82ta.aspx
-C/C++ Compiler	C2144		syntax error : 'type' should be preceded by 'token'	Error	http://msdn.microsoft.com/en-us/library/1x3dw9tc.aspx
-C/C++ Compiler	C2146		syntax error : missing 'token' before identifier 'identifier'	Error	http://msdn.microsoft.com/en-us/library/9xbcaa9t.aspx
+C/C++ Compiler	C2143	MissingTokenBeforeToken	syntax error : missing 'token1' before 'token2'	Error	http://msdn.microsoft.com/en-us/library/0afb82ta.aspx
+C/C++ Compiler	C2144	TypeShouldBePrecededByToken	syntax error : 'type' should be preceded by 'token'	Error	http://msdn.microsoft.com/en-us/library/1x3dw9tc.aspx
+C/C++ Compiler	C2146	MissingTokenBeforeIdentifier	syntax error : missing 'token' before identifier 'identifier'	Error	http://msdn.microsoft.com/en-us/library/9xbcaa9t.aspx
 C/C++ Compiler	C2147		syntax error : 'identifier' is a new keyword	Error	http://msdn.microsoft.com/en-us/library/3x4s7a6y.aspx
 C/C++ Compiler	C2148		total size of array must not exceed 0x7fffffff bytes	Error	http://msdn.microsoft.com/en-us/library/s0z0bbfe.aspx
 C/C++ Compiler	C2151		more than one language attribute	Error	http://msdn.microsoft.com/en-us/library/x22w1b85.aspx
@@ -179,7 +181,7 @@ C/C++ Compiler	C2212		'identifier' : __based not available for pointers to funct
 C/C++ Compiler	C2213		'modifier' : illegal argument to __based	Error	http://msdn.microsoft.com/en-us/library/esh19454.aspx
 C/C++ Compiler	C2217		'attribute1' requires 'attribute2'	Error	http://msdn.microsoft.com/en-us/library/8cxzyx6f.aspx
 C/C++ Compiler	C2219		syntax error : type qualifier must be after '*'	Error	http://msdn.microsoft.com/en-us/library/097sy9kt.aspx
-C/C++ Compiler	C2220		warning treated as error - no object file generated	Error	http://msdn.microsoft.com/en-us/library/ksk5k0ta.aspx
+C/C++ Compiler	C2220	WarningTreatedAsError	warning treated as error - no object file generated	Error	http://msdn.microsoft.com/en-us/library/ksk5k0ta.aspx
 C/C++ Compiler	C2223		left of '-&gt;identifier' must point to struct/union	Error	http://msdn.microsoft.com/en-us/library/2eaz03kd.aspx
 C/C++ Compiler	C2224		left of '.identifier' must have struct/union type	Error	http://msdn.microsoft.com/en-us/library/a5f5awf5.aspx
 C/C++ Compiler	C2229		type 'identifier' has an illegal zero-sized array	Error	http://msdn.microsoft.com/en-us/library/0scy7z2d.aspx
@@ -196,7 +198,7 @@ C/C++ Compiler	C2252		cannot explicitly instantiate template in current scope	Er
 C/C++ Compiler	C2253		'function' : pure specifier or abstract override specifier only allowed on virtual function	Error	http://msdn.microsoft.com/en-us/library/6s480ckd.aspx
 C/C++ Compiler	C2254		'function' : pure specifier or abstract override specifier not allowed on friend function	Error	http://msdn.microsoft.com/en-us/library/y80xsx5z.aspx
 C/C++ Compiler	C2256		illegal use of friend specifier on 'function'	Error	http://msdn.microsoft.com/en-us/library/zad5s3a3.aspx
-C/C++ Compiler	C2259		'class' : cannot instantiate abstract class	Error	http://msdn.microsoft.com/en-us/library/zxt206sk.aspx
+C/C++ Compiler	C2259	CannotInstantiateAbstractClass	'class' : cannot instantiate abstract class	Error	http://msdn.microsoft.com/en-us/library/zxt206sk.aspx
 C/C++ Compiler	C2261		'string' : assembly reference is invalid and cannot be resolved	Error	http://msdn.microsoft.com/en-us/library/ms173693.aspx
 C/C++ Compiler	C2264		'function' : error in function definition or declaration; function not called	Error	http://msdn.microsoft.com/en-us/library/c84eh4ck.aspx
 C/C++ Compiler	C2267		'function' : static functions with block scope are illegal	Error	http://msdn.microsoft.com/en-us/library/1ewx8432.aspx
@@ -205,7 +207,7 @@ C/C++ Compiler	C2271		'operator' : new/delete cannot have formal list modifiers	
 C/C++ Compiler	C2272		'function' : modifiers not allowed on static member functions	Error	http://msdn.microsoft.com/en-us/library/475eh775.aspx
 C/C++ Compiler	C2273		'type' : illegal as right side of '-&gt;' operator	Error	http://msdn.microsoft.com/en-us/library/0f4d8012.aspx
 C/C++ Compiler	C2274		'type' : illegal as right side of '.' operator	Error	http://msdn.microsoft.com/en-us/library/kst1dcx0.aspx
-C/C++ Compiler	C2275		'identifier' : illegal use of this type as an expression	Error	http://msdn.microsoft.com/en-us/library/76c9k4ah.aspx
+C/C++ Compiler	C2275	IllegalUseOfTypeAsAnExpression	'identifier' : illegal use of this type as an expression	Error	http://msdn.microsoft.com/en-us/library/76c9k4ah.aspx
 C/C++ Compiler	C2276		'operator' : illegal operation on bound member function expression	Error	http://msdn.microsoft.com/en-us/library/850cstw1.aspx
 C/C++ Compiler	C2277		'identifier' : cannot take address of this member function	Error	http://msdn.microsoft.com/en-us/library/049f98xy.aspx
 C/C++ Compiler	C2279		exception specification cannot appear in a typedef declaration	Error	http://msdn.microsoft.com/en-us/library/7c38yzs9.aspx
@@ -242,7 +244,8 @@ C/C++ Compiler	C2360		initialization of 'identifier' is skipped by 'case' label	
 C/C++ Compiler	C2361		initialization of 'identifier' is skipped by 'default' label	Error	http://msdn.microsoft.com/en-us/library/dfbz90h6.aspx
 C/C++ Compiler	C2362		initialization of 'identifier' is skipped by 'goto label'	Error	http://msdn.microsoft.com/en-us/library/s6s80d9f.aspx
 C/C++ Compiler	C2364		'type': illegal type for custom attribute	Error	http://msdn.microsoft.com/en-us/library/kaayhhek.aspx
-C/C++ Compiler	C2372		'identifier' : redefinition; different types of indirection	Error	http://msdn.microsoft.com/en-us/library/d947bzc0.aspx
+C/C++ Compiler	C2370	IdentifierRedefinitionDifferentStorageClass	'identifier' : redefinition; different storage class	Error	https://msdn.microsoft.com/en-us/library/ye12x970.aspx
+C/C++ Compiler	C2372	IdentifierRedefinition	'identifier' : redefinition; different types of indirection	Error	http://msdn.microsoft.com/en-us/library/d947bzc0.aspx
 C/C++ Compiler	C2379		formal parameter number has different type when promoted	Error	http://msdn.microsoft.com/en-us/library/y249b242.aspx
 C/C++ Compiler	C2380		type(s) preceding 'identifier' (constructor with return type, or illegal redefinition of current class-name?)	Error	http://msdn.microsoft.com/en-us/library/2bcktt82.aspx
 C/C++ Compiler	C2381		'function' : redefinition; __declspec(noreturn) differs	Error	http://msdn.microsoft.com/en-us/library/5fs830ft.aspx
@@ -278,7 +281,7 @@ C/C++ Compiler	C2436		'identifier' : member function or nested class in construc
 C/C++ Compiler	C2437		'identifier' : already initialized	Error	http://msdn.microsoft.com/en-us/library/xhze21a2.aspx
 C/C++ Compiler	C2438		'identifier' : cannot initialize static class data via constructor	Error	http://msdn.microsoft.com/en-us/library/6zsbd2cw.aspx
 C/C++ Compiler	C2439		'identifier' : member could not be initialized	Error	http://msdn.microsoft.com/en-us/library/td1e65xd.aspx
-C/C++ Compiler	C2440		'conversion' : cannot convert from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/sy5tsf8z.aspx
+C/C++ Compiler	C2440	InvalidConversion	'conversion' : cannot convert from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/sy5tsf8z.aspx
 C/C++ Compiler	C2441		'variable' : a symbol declared with __declspec(process) must be const in /clr:pure mode	Error	http://msdn.microsoft.com/en-us/library/ms173573.aspx
 C/C++ Compiler	C2443		operand size conflict	Error	http://msdn.microsoft.com/en-us/library/8xdbkfk1.aspx
 C/C++ Compiler	C2446		'operator' : no conversion from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/kf96f2za.aspx
@@ -298,7 +301,7 @@ C/C++ Compiler	C2464		'identifier' : cannot use 'new' to allocate a reference	Er
 C/C++ Compiler	C2466		cannot allocate an array of constant size 0	Error	http://msdn.microsoft.com/en-us/library/6zxfydcs.aspx
 C/C++ Compiler	C2467		illegal declaration of anonymous 'user-defined-type'	Error	http://msdn.microsoft.com/en-us/library/xe8wx5hc.aspx
 C/C++ Compiler	C2470		'function' : looks like a function definition, but there is no parameter list; skipping apparent body	Error	http://msdn.microsoft.com/en-us/library/4k954cff.aspx
-C/C++ Compiler	C2471		cannot update program database 'file'	Error	http://msdn.microsoft.com/en-us/library/zww6zdh7.aspx
+C/C++ Compiler	C2471	CannotUpdateProgramDatabaseFile	cannot update program database 'file'	Error	http://msdn.microsoft.com/en-us/library/zww6zdh7.aspx
 C/C++ Compiler	C2477		'member' : static data member cannot be initialized via derived class	Error	http://msdn.microsoft.com/en-us/library/7faetbyx.aspx
 C/C++ Compiler	C2479		'identifier' : 'allocate( )' is only valid for data items of static extent	Error	http://msdn.microsoft.com/en-us/library/ce6zdyt1.aspx
 C/C++ Compiler	C2480		'identifier' : 'thread' is only valid for data items of static extent	Error	http://msdn.microsoft.com/en-us/library/43hc6806.aspx
@@ -320,12 +323,12 @@ C/C++ Compiler	C2499		'class' : a class cannot be its own base class	Error	http:
 C/C++ Compiler	C2500		'identifier1' : 'identifier2' is already a direct base class	Error	http://msdn.microsoft.com/en-us/library/5sfdza34.aspx
 C/C++ Compiler	C2502		'identifier' : too many access modifiers on the base class	Error	http://msdn.microsoft.com/en-us/library/ys12sd6w.aspx
 C/C++ Compiler	C2503		'class' : base classes cannot contain zero-sized arrays	Error	http://msdn.microsoft.com/en-us/library/9k6zaewd.aspx
-C/C++ Compiler	C2504		'class' : base class undefined	Error	http://msdn.microsoft.com/en-us/library/dw443zc0.aspx
+C/C++ Compiler	C2504	BaseClassUndefined	'class' : base class undefined	Error	http://msdn.microsoft.com/en-us/library/dw443zc0.aspx
 C/C++ Compiler	C2505		'symbol' : '__declspec(modifer)' can only be applied to declarations or definitions of global objects or static data members	Error	http://msdn.microsoft.com/en-us/library/ex41kf64.aspx
 C/C++ Compiler	C2506		'member' : '__declspec(modifier)' cannot be applied to this symbol	Error	http://msdn.microsoft.com/en-us/library/ms173575.aspx
 C/C++ Compiler	C2507		'identifier' : too many virtual modifiers on the base class	Error	http://msdn.microsoft.com/en-us/library/tdycssx2.aspx
 C/C++ Compiler	C2509		'identifier' : member function not declared in 'class'	Error	http://msdn.microsoft.com/en-us/library/cch459kz.aspx
-C/C++ Compiler	C2511		'identifier' : overloaded member function not found in 'class'	Error	http://msdn.microsoft.com/en-us/library/20fs9x81.aspx
+C/C++ Compiler	C2511	OverloadedMemberFunctionNotFound	'identifier' : overloaded member function not found in 'class'	Error	http://msdn.microsoft.com/en-us/library/20fs9x81.aspx
 C/C++ Compiler	C2512		'identifier' : no appropriate default constructor available	Error	http://msdn.microsoft.com/en-us/library/9zkz8dx6.aspx
 C/C++ Compiler	C2513		'type' : no variable declared before '='	Error	http://msdn.microsoft.com/en-us/library/01d8w4b7.aspx
 C/C++ Compiler	C2514		'class' : class has no constructors	Error	http://msdn.microsoft.com/en-us/library/4ce3zbbc.aspx
@@ -336,8 +339,8 @@ C/C++ Compiler	C2521		function does not take any arguments	Error	http://msdn.mic
 C/C++ Compiler	C2523		'class::~identifier' : destructor/finalizer tag mismatch	Error	http://msdn.microsoft.com/en-us/library/kwzz6fh0.aspx
 C/C++ Compiler	C2524		'destructor' : a destructor/finalizer must have a 'void' parameter list	Error	http://msdn.microsoft.com/en-us/library/sxbac7x8.aspx
 C/C++ Compiler	C2526		'identifier1' : C linkage function cannot return C++ class 'identifier2'	Error	http://msdn.microsoft.com/en-us/library/y59181c6.aspx
-C/C++ Compiler	C2528		'name' : pointer to reference is illegal	Error	http://msdn.microsoft.com/en-us/library/dh35e091.aspx
-C/C++ Compiler	C2529		'name' : reference to reference is illegal	Error	http://msdn.microsoft.com/en-us/library/kf78kcyw.aspx
+C/C++ Compiler	C2528	IllegalPointerToReference	'name' : pointer to reference is illegal	Error	http://msdn.microsoft.com/en-us/library/dh35e091.aspx
+C/C++ Compiler	C2529	IllegalReferenceToReference	'name' : reference to reference is illegal	Error	http://msdn.microsoft.com/en-us/library/kf78kcyw.aspx
 C/C++ Compiler	C2530		'identifier' : references must be initialized	Error	http://msdn.microsoft.com/en-us/library/fz7ccyb2.aspx
 C/C++ Compiler	C2531		'identifier' : reference to a bit field illegal	Error	http://msdn.microsoft.com/en-us/library/91az2s4y.aspx
 C/C++ Compiler	C2532		'identifier' : illegal modifier for reference	Error	http://msdn.microsoft.com/en-us/library/7b0dhxtk.aspx
@@ -425,18 +428,18 @@ C/C++ Compiler	C2648		'identifier' : use of member as default parameter requires
 C/C++ Compiler	C2650		'operator' : cannot be a virtual function	Error	http://msdn.microsoft.com/en-us/library/zwc6783f.aspx
 C/C++ Compiler	C2651		'data type' : left of 'operator' must be a class, struct or union	Error	http://msdn.microsoft.com/en-us/library/b3551yta.aspx
 C/C++ Compiler	C2652		'identifier' : illegal copy constructor: first parameter must not be an 'identifier'	Error	http://msdn.microsoft.com/en-us/library/7hdzeabw.aspx
-C/C++ Compiler	C2653		'identifier' : is not a class or namespace name	Error	http://msdn.microsoft.com/en-us/library/a4867f7c.aspx
-C/C++ Compiler	C2654		'identifier' : attempt to access member outside a member function	Error	http://msdn.microsoft.com/en-us/library/ahc3wc3h.aspx
+C/C++ Compiler	C2653	ClassOrNamespaceNameNotFound	'identifier' : is not a class or namespace name	Error	http://msdn.microsoft.com/en-us/library/a4867f7c.aspx
+C/C++ Compiler	C2654	AttemptToAccessMemberOutsideMemberFunction	'identifier' : attempt to access member outside a member function	Error	http://msdn.microsoft.com/en-us/library/ahc3wc3h.aspx
 C/C++ Compiler	C2655		'identifier' : definition or redeclaration illegal in current scope	Error	http://msdn.microsoft.com/en-us/library/5205y602.aspx
 C/C++ Compiler	C2656		'function' : function not allowed as a bit field	Error	http://msdn.microsoft.com/en-us/library/69zyd51z.aspx
 C/C++ Compiler	C2657		'class::*' found at the start of a statement (did you forget to specify a type?)	Error	http://msdn.microsoft.com/en-us/library/k9kdy65h.aspx
 C/C++ Compiler	C2658		'member': redefinition in anonymous struct/union	Error	http://msdn.microsoft.com/en-us/library/twwsh6wy.aspx
 C/C++ Compiler	C2659		'operator' : function as left operand	Error	http://msdn.microsoft.com/en-us/library/8t03ksxc.aspx
-C/C++ Compiler	C2660		'function' : function does not take number parameters	Error	http://msdn.microsoft.com/en-us/library/ek13fhc1.aspx
-C/C++ Compiler	C2661		'function' : no overloaded function takes number parameters	Error	http://msdn.microsoft.com/en-us/library/064x9y7c.aspx
+C/C++ Compiler	C2660	FunctionDoesNotTakeNumberParameters	'function' : function does not take number parameters	Error	http://msdn.microsoft.com/en-us/library/ek13fhc1.aspx
+C/C++ Compiler	C2661	NoOverloadedFunctionTakesNumberParameters	'function' : no overloaded function takes number parameters	Error	http://msdn.microsoft.com/en-us/library/064x9y7c.aspx
 C/C++ Compiler	C2662		'function' : cannot convert 'this' pointer from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/2s2d2tez.aspx
 C/C++ Compiler	C2663		'function' : number overloads have no legal conversions for 'this' pointer	Error	http://msdn.microsoft.com/en-us/library/bhx1a546.aspx
-C/C++ Compiler	C2664		'function' : cannot convert parameter number from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/s5b150wd.aspx
+C/C++ Compiler	C2664	CannotConvertParameterNumber	'function' : cannot convert parameter number from 'type1' to 'type2'	Error	http://msdn.microsoft.com/en-us/library/s5b150wd.aspx
 C/C++ Compiler	C2665		'function' : none of the number1 overloads can convert parameter number2 from type 'type'	Error	http://msdn.microsoft.com/en-us/library/c8ft1y6y.aspx
 C/C++ Compiler	C2666		'identifier' : number overloads have similar conversions	Error	http://msdn.microsoft.com/en-us/library/dyafzty4.aspx
 C/C++ Compiler	C2667		'function' : none of number overloads have a best conversion	Error	http://msdn.microsoft.com/en-us/library/47at8zd3.aspx
@@ -463,7 +466,7 @@ C/C++ Compiler	C2691		'data type' : a managed array cannot have this element typ
 C/C++ Compiler	C2692		'function_name' : fully prototyped functions required in C compiler with the '/clr' option	Error	http://msdn.microsoft.com/en-us/library/edfsbfxh.aspx
 C/C++ Compiler	C2693		'operator' : illegal comparison for references to a managed array	Error	http://msdn.microsoft.com/en-us/library/40bhhx3t.aspx
 C/C++ Compiler	C2694		'override': overriding virtual function has less restrictive exception specification than base class virtual member function 'base'	Error	http://msdn.microsoft.com/en-us/library/e4x95xf8.aspx
-C/C++ Compiler	C2695		'function1': overriding virtual function differs from 'function2' only by calling convention	Error	http://msdn.microsoft.com/en-us/library/z6twcwss.aspx
+C/C++ Compiler	C2695	OverridingVirtualFunctionDiffersByCallingConvention	'function1': overriding virtual function differs from 'function2' only by calling convention	Error	http://msdn.microsoft.com/en-us/library/z6twcwss.aspx
 C/C++ Compiler	C2696		Cannot create a temporary object of a managed type 'type'	Error	http://msdn.microsoft.com/en-us/library/0c5w3kyt.aspx
 C/C++ Compiler	C2697		'array' : must explicitly specify __gc or __nogc for an array declared in a managed type	Error	http://msdn.microsoft.com/en-us/library/zaee9xaz.aspx
 C/C++ Compiler	C2698		the using-declaration for 'declaration 1' cannot co-exist with the existing using-declaration for 'declaration 2'	Error	http://msdn.microsoft.com/en-us/library/14x9dkd1.aspx
@@ -605,9 +608,9 @@ C/C++ Compiler	C2867		'identifier' : is not a namespace	Error	http://msdn.micros
 C/C++ Compiler	C2868		'identifier' : illegal syntax for using-declaration; expected qualified-name	Error	http://msdn.microsoft.com/en-us/library/bz00k13w.aspx
 C/C++ Compiler	C2869		'name' : has already been defined to be a namespace	Error	http://msdn.microsoft.com/en-us/library/zy34be29.aspx
 C/C++ Compiler	C2870		'name' : a namespace definition must appear either at file scope or immediately within another namespace definition	Error	http://msdn.microsoft.com/en-us/library/h0btfa65.aspx
-C/C++ Compiler	C2871		'name' : a namespace with this name does not exist	Error	http://msdn.microsoft.com/en-us/library/1s0wz6d0.aspx
-C/C++ Compiler	C2872		'symbol' : ambiguous symbol	Error	http://msdn.microsoft.com/en-us/library/t57wswcs.aspx
-C/C++ Compiler	C2873		'symbol' : symbol cannot be used in a using-declaration	Error	http://msdn.microsoft.com/en-us/library/sd8050b6.aspx
+C/C++ Compiler	C2871	NamespaceNotFound	'name' : a namespace with this name does not exist	Error	http://msdn.microsoft.com/en-us/library/1s0wz6d0.aspx
+C/C++ Compiler	C2872	AmbiguousSymbol	'symbol' : ambiguous symbol	Error	http://msdn.microsoft.com/en-us/library/t57wswcs.aspx
+C/C++ Compiler	C2873	SymbolCannotBeUsedInUsingDeclaration	'symbol' : symbol cannot be used in a using-declaration	Error	http://msdn.microsoft.com/en-us/library/sd8050b6.aspx
 C/C++ Compiler	C2874		using-declaration causes a multiple declaration of 'symbol'	Error	http://msdn.microsoft.com/en-us/library/fe499f52.aspx
 C/C++ Compiler	C2875		using-declaration causes a multiple declaration of 'class::identifier'	Error	http://msdn.microsoft.com/en-us/library/99y43hac.aspx
 C/C++ Compiler	C2876		'class::symbol' : not all overloads are accessible	Error	http://msdn.microsoft.com/en-us/library/49hy2ka1.aspx
@@ -663,7 +666,7 @@ C/C++ Compiler	C3071		operator 'operator' can only be applied to an instance of 
 C/C++ Compiler	C3072		operator 'operator' cannot be applied to an instance of a ref class	Error	http://msdn.microsoft.com/en-us/library/ms173591.aspx
 C/C++ Compiler	C3073		'type' : ref class does not have a user-defined copy constructor	Error	http://msdn.microsoft.com/en-us/library/ms173592.aspx
 C/C++ Compiler	C3076		'instance' : you cannot embed an instance of a reference type, 'type', in a native type	Error	http://msdn.microsoft.com/en-us/library/ms173594.aspx
-C/C++ Compiler	C3083		'function': the symbol to the left of a '::' must be a type	Error	http://msdn.microsoft.com/en-us/library/ms173598.aspx
+C/C++ Compiler	C3083	SymbolToTheLeftMustBeype	'function': the symbol to the left of a '::' must be a type	Error	http://msdn.microsoft.com/en-us/library/ms173598.aspx
 C/C++ Compiler	C3100		'target' : unknown attribute qualifier	Error	http://msdn.microsoft.com/en-us/library/ms173607.aspx
 C/C++ Compiler	C3101		illegal expression for named attribute argument 'field'	Error	http://msdn.microsoft.com/en-us/library/ms235438.aspx
 C/C++ Compiler	C3103		'argument': repeated named argument	Error	http://msdn.microsoft.com/en-us/library/ms173608.aspx
@@ -816,7 +819,7 @@ C/C++ Compiler	C3641		'function' : invalid calling convention 'calling_conventio
 C/C++ Compiler	C3642		'return_type/args' : cannot call a function with __clrcall calling convention from native code	Error	http://msdn.microsoft.com/en-us/library/y45zht3h.aspx
 C/C++ Compiler	C3644		'function' : cannot compile the function to generate managed code	Error	http://msdn.microsoft.com/en-us/library/sehdax2d.aspx
 C/C++ Compiler	C3645		'function' : __clrcall cannot be used on functions compiled to native code	Error	http://msdn.microsoft.com/en-us/library/a0hcza54.aspx
-C/C++ Compiler	C3646		'specifier' : unknown override specifier	Error	http://msdn.microsoft.com/en-us/library/96kbe216.aspx
+C/C++ Compiler	C3646	UnknownOverrideSpecifier	'specifier' : unknown override specifier	Error	http://msdn.microsoft.com/en-us/library/96kbe216.aspx
 C/C++ Compiler	C3648		this explicit override syntax requires /clr:oldSyntax	Error	http://msdn.microsoft.com/en-us/library/1dx20c25.aspx
 C/C++ Compiler	C3650		'interface_method' : cannot be used as an explicit override, must be a virtual member function of a base class	Error	http://msdn.microsoft.com/en-us/library/ts09wkxb.aspx
 C/C++ Compiler	C3651		'member' : cannot be used as an explicit override, must be a member of a base class	Error	http://msdn.microsoft.com/en-us/library/cffe7k68.aspx
@@ -831,7 +834,7 @@ C/C++ Compiler	C3661		explicit override list did not find any methods to overrid
 C/C++ Compiler	C3662		'member' : override specifier 'specifier' only allowed on member functions of managed classes	Error	http://msdn.microsoft.com/en-us/library/600katwk.aspx
 C/C++ Compiler	C3665		'destructor' : override specifier 'keyword' not allowed on a destructor/finalizer	Error	http://msdn.microsoft.com/en-us/library/xfzxhe2a.aspx
 C/C++ Compiler	C3666		'constructor' : override specifier 'keyword' not allowed on a constructor	Error	http://msdn.microsoft.com/en-us/library/ms173667.aspx
-C/C++ Compiler	C3668		'method' : method with override specifier 'override' did not override any base class methods	Error	http://msdn.microsoft.com/en-us/library/1z7f6w2w.aspx
+C/C++ Compiler	C3668	MethodOverrideNotExpected	'method' : method with override specifier 'override' did not override any base class methods	Error	http://msdn.microsoft.com/en-us/library/1z7f6w2w.aspx
 C/C++ Compiler	C3669		'member' : override specifier 'override' not allowed on static member functions or constructors	Error	http://msdn.microsoft.com/en-us/library/6xktkdah.aspx
 C/C++ Compiler	C3670		'override' : cannot override inaccessible base class method 'method'	Error	http://msdn.microsoft.com/en-us/library/2a34xcce.aspx
 C/C++ Compiler	C3671		'function_1' : function does not override 'function_2'	Error	http://msdn.microsoft.com/en-us/library/ms173668.aspx
@@ -891,7 +894,7 @@ C/C++ Compiler	C3762		unable to process attribute 'attribute'	Error	http://msdn.
 C/C++ Compiler	C3763		'type': 'retval' and 'out' can only appear on a data-pointer type	Error	http://msdn.microsoft.com/en-us/library/6421hzkb.aspx
 C/C++ Compiler	C3764		'override_function': cannot override base class method 'base_class_function'	Error	http://msdn.microsoft.com/en-us/library/ms235567.aspx
 C/C++ Compiler	C3765		'event': cannot define an event in a class/struct 'type' marked as an event_receiver	Error	http://msdn.microsoft.com/en-us/library/yfac99bb.aspx
-C/C++ Compiler	C3766		'type' must provide an implementation for the interface method 'function'	Error	http://msdn.microsoft.com/en-us/library/ms235570.aspx
+C/C++ Compiler	C3766	ImplementationForInterfaceExpected	'type' must provide an implementation for the interface method 'function'	Error	http://msdn.microsoft.com/en-us/library/ms235570.aspx
 C/C++ Compiler	C3767		'function' candidate function(s) not accessible	Error	http://msdn.microsoft.com/en-us/library/19dh8yat.aspx
 C/C++ Compiler	C3768		cannot take the address of a virtual vararg function in pure managed code	Error	http://msdn.microsoft.com/en-us/library/b32b92z0.aspx
 C/C++ Compiler	C3769		'type' : a nested class cannot have the same name as the immediately enclosing class	Error	http://msdn.microsoft.com/en-us/library/ms173672.aspx
@@ -947,7 +950,7 @@ C/C++ Compiler	C3857		'type': multiple type parameter lists are not allowed	Erro
 C/C++ Compiler	C3858		'type': cannot be redeclared in current scope	Error	http://msdn.microsoft.com/en-us/library/00d3at74.aspx
 C/C++ Compiler	C3859		virtual memory range for PCH exceeded; please recompile with a command line option of '-Zmvalue' or greater	Error	http://msdn.microsoft.com/en-us/library/1bx1fkes.aspx
 C/C++ Compiler	C3860		type argument list following class type name must list parameters in the order used in type parameter list	Error	http://msdn.microsoft.com/en-us/library/h2wky6zt.aspx
-C/C++ Compiler	C3861		'identifier': identifier not found 	Error	http://msdn.microsoft.com/en-us/library/b6y87cyx.aspx
+C/C++ Compiler	C3861	IdentifierNotFound	'identifier': identifier not found 	Error	http://msdn.microsoft.com/en-us/library/b6y87cyx.aspx
 C/C++ Compiler	C3862		'function': cannot compile an unmanaged function with /clr:pure or /clr:safe	Error	http://msdn.microsoft.com/en-us/library/b0azzcw8.aspx
 C/C++ Compiler	C3865		'calling_convention' : can only be used on native member functions	Error	http://msdn.microsoft.com/en-us/library/z50f73h7.aspx
 C/C++ Compiler	C3866		function call missing argument list	Error	http://msdn.microsoft.com/en-us/library/8d9zs302.aspx
@@ -1192,8 +1195,8 @@ C/C++ Compiler	C4412		'function' : function signature contains type 'type'; C++ 
 C/C++ Compiler	C4414		'function' : short jump to function converted to near	Warning	http://msdn.microsoft.com/en-us/library/eh37b37w.aspx
 C/C++ Compiler	C4420		'operator' : operator not available, using 'operator' instead; run-time checking may be compromised	Warning	http://msdn.microsoft.com/en-us/library/ka64k7sz.aspx
 C/C++ Compiler	C4429		possible incomplete or improperly formed universal-character-name	Warning	http://msdn.microsoft.com/en-us/library/z78hwa6k.aspx
-C/C++ Compiler	C4430		missing type specifier - int assumed. Note: C++ does not support default-int	Warning	http://msdn.microsoft.com/en-us/library/ms173696.aspx
-C/C++ Compiler	C4431		missing type specifier - int assumed. Note: C no longer supports default-int	Warning	http://msdn.microsoft.com/en-us/library/ms173697.aspx
+C/C++ Compiler	C4430	CppMissingTypeSpecifier	missing type specifier - int assumed. Note: C++ does not support default-int	Warning	http://msdn.microsoft.com/en-us/library/ms173696.aspx
+C/C++ Compiler	C4431	CMissingTypeSpecifier	missing type specifier - int assumed. Note: C no longer supports default-int	Warning	http://msdn.microsoft.com/en-us/library/ms173697.aspx
 C/C++ Compiler	C4432		a destructor in a ref-class must have public accessibility; changing to public access	Warning	http://msdn.microsoft.com/en-us/library/ms173698.aspx
 C/C++ Compiler	C4433		a finalizer must have protected accessibility; changing to protected access	Warning	http://msdn.microsoft.com/en-us/library/ms235520.aspx
 C/C++ Compiler	C4434		a class constructor must have private accessibility; changing to private access	Warning	http://msdn.microsoft.com/en-us/library/ms235306.aspx
